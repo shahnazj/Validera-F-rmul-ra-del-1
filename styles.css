@@ -26,13 +26,18 @@ body {
     cursor: pointer;
     text-emphasis: none;
     font-weight: 600;
-} 
-&:hover,
-&:focus-visible {
-    background-color: darkolivegreen;
-} 
+
+    transition: background 150ms;
+    
+
+    &:hover,
+    &:focus-visible {
+    background-color: hsl(82, 39%, 25%);
 
 
+} 
+
+} 
 .container {
 height: 100vh;
 display:  grid;
